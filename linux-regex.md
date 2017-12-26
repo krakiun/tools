@@ -11,3 +11,12 @@ grep -oh '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' *.txt
     with each such part on a separate output line.
     
 ```
+
+
+# Find keyword/word in files
+
+Ack is designed as a replacement for 99% of the uses of grep.
+
+```
+ack 'word'
+```
